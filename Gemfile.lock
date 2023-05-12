@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    sidekiq_filter_job (0.1.0)
+      sidekiq
+
+GEM
+  remote: http://mirrors.tuna.tsinghua.edu.cn/rubygems/
+  specs:
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.0)
+    rack (3.0.7)
+    rake (10.5.0)
+    redis-client (0.14.1)
+      connection_pool
+    sidekiq (7.1.0)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.14.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  bundler (>= 1.17)
+  rake (~> 10.0)
+  sidekiq_filter_job!
+
+BUNDLED WITH
+   2.3.25
